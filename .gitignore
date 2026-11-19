@@ -1,10 +1,37 @@
+
+# Help files
 HELP.md
+
+# Maven
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+# Compiled files
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+
+# Logs
+*.log
+
+# Java crash logs
+hs_err_pid*
+replay_pid*
+
+# Other Java tools
+*.ctxt
+.mtj.tmp/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# STS
 .apt_generated
 .classpath
 .factorypath
@@ -13,13 +40,13 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
+# IntelliJ IDEA
 .idea
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -29,7 +56,7 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+# VS Code
 .vscode/
 
 # Secret configuration files
